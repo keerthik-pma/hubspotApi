@@ -1,0 +1,23 @@
+{
+  "name": "hubspot-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sls offline"
+  },
+  "author": "keeerthik",
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 120
+  },
+  "devDependencies": {
+    "serverless-offline": "^12.0.4"
+  },
+  "dependencies": {
+    "@hubspot/api-client": "^8.9.0",
+    "lodash.omit": "^4.5.0"
+  }
+}
